@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Require-Bundle: xcpui.xcpui;bundle-version="2.2.0", xcpcomm.xcpcommons
+ ;bundle-version="2.2.0", xcp.xcpcore;bundle-version="2.2.0"
+Bundle-ClassPath: .,lib/errorModule.jar
+Bundle-Version: 1.0.0.201704151827
+EMC-XCP-ExecutionEnvironment: com.emc.executionenvironment.xcp:2.2.20
+Bundle-Name: Test
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: test.Test
+NAMESPACE: test
+

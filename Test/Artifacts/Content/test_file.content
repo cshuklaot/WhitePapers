@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsDatatypes:Document xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsDatatypes="http://xcp.emc.com/datatypes" urn="urn:test:com.emc.xcp.artifact.doc:Artifacts/Content/test_file.content" categoryId="com.emc.xcp.artifact.doc" name="test_file" label="test file" commentable="true">
+  <accessControlPolicy inheritedFromParentFolder="true"/>
+  <defaultFolderPath/>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_create_test_file" label="Create test file" implCategoryId="com.emc.xcp.artifact.doc">
+    <primaryElement dataModel="/"/>
+    <actionType type="Create"/>
+  </dataActionContracts>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_update_test_file" label="Update test file" implCategoryId="com.emc.xcp.artifact.doc">
+    <primaryElement dataModel="/"/>
+    <actionType type="Update"/>
+  </dataActionContracts>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_delete_test_file" label="Delete test file" implCategoryId="com.emc.xcp.artifact.doc">
+    <primaryElement dataModel="/"/>
+    <actionType type="Delete"/>
+  </dataActionContracts>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_import_test_file" label="Import test file" implCategoryId="com.emc.xcp.artifact.doc">
+    <primaryElement dataModel="/"/>
+    <actionType type="Import"/>
+  </dataActionContracts>
+  <dataActionContracts categoryId="com.emc.xcp.artifact.dataservice.dataactioncontract" name="da_def_importnewversion_test_file" label="ImportNewVersion test file" implCategoryId="com.emc.xcp.artifact.doc">
+    <primaryElement dataModel="/"/>
+    <actionType type="ImportNewVersion"/>
+  </dataActionContracts>
+  <superType xsi:type="nsDatatypes:Document" href="urn:xcp:com.emc.xcp.artifact.doc:Artifacts/Content/dm_document.content#/"/>
+</nsDatatypes:Document>

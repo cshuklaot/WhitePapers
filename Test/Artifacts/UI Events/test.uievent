@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uievent:UIEvent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uievent="http://www.emc.com/xcp2/2010/uievent" urn="urn:test:com.emc.xcp.artifact.uievent:Artifacts/UI Events/test.uievent" categoryId="com.emc.xcp.artifact.uievent" name="test" label="test"/>
